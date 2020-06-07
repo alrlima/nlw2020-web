@@ -9,13 +9,6 @@ web=diretorio
 executando o projeto react
 npm start
 
-## REACT NATIVE ##
-interpreta o código java script e executa como nativo usando um engine interno que vai junto com a aplicação.
-
-para execução do projeto sem necessidade de instalação de outras aplicações android studio e xcode, será utilizado o expo
-o expo vai disponibilizar os acessos básciso de um device e executará o código. É como o IONIC DevApp.
-
-
 JSX é a capacidade de usar sintaxe xml/html no javascript
 
 TSX = type script com JSX
@@ -37,3 +30,4 @@ npm install @types/react-leaflet -D
 --> lib para acesso ws
 npm install axios
 
+npm install react-dropzone
