@@ -108,7 +108,7 @@ const CreatePoint = () => {
     const items = selectedItems;
 
     const data = new FormData();
-    data.append('imagem', selectedFile ? selectedFile: '');
+    data.append('imagem', imagem ? imagem: '');
     data.append('nome', nome);
     data.append('email', email);
     data.append('telefone', telefone);
