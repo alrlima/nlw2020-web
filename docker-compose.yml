@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  nlw_web:
+    image: nlw_web
+    build: .
+    environment:
+      NODE_ENV: production
+    # volumes:
+    #     - '.:/usr/src/app'
+        # - '/usr/src/app/node_modules'
+    ports:
+      - "${HOST_WEBPORT}:${CONTAINER_WEBPORT}"
